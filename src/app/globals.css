@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 body{
+  background-color: black;
   margin: 0px;
+  overflow-x: hidden;
 }
