@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic'
-import Float from '@/components/float'
+import Float from '@/components/Float'
 import About from '@/components/About'
 import { Foot } from '@/components/component/foot'
 
