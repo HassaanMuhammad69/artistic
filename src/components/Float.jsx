@@ -149,9 +149,9 @@ export default function Float() {
 
             <div className={styles.title}>
 
-                <h1>Floating Images Gallery</h1>
+                <h1>ArtisticBaji</h1>
 
-                <p>Next.js and GSAP</p>
+                <p>Just two dum dums creating art</p>
 
             </div>
 

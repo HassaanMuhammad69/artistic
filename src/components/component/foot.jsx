@@ -1,5 +1,4 @@
 "use client"
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -12,11 +11,11 @@ export function Foot() {
             <div className="space-y-2">
               <h1
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-                Revolutionize Your Email Experience
+                Revolutionize Your Art Experience
               </h1>
               <p
                 className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto">
-                Join us and take control of your inbox. Fast, secure, and designed for modern life.
+                Contact us to buy our orignals, or customized paintings
               </p>
             </div>
             <div className="w-full max-w-sm space-y-2 mx-auto">
@@ -25,12 +24,14 @@ export function Foot() {
                   className="max-w-lg flex-1 bg-gray-800 text-white border-gray-900"
                   placeholder="Enter your email"
                   type="email" /> */}
-                <Button className="bg-white ml-36 text-black" type="submit">
-                  Join Now
-                </Button>
+                <Link href="https://www.instagram.com/artisticbaji/">
+                  <Button className="bg-white ml-36 text-black" type="submit">
+                    Join Now
+                  </Button>
+                </Link>
               </form>
               <p className="text-xs text-zinc-200 dark:text-zinc-100">
-                Get ready to redefine your email experience.
+                Get ready to redefine your Art experience.
                 <Link className="underline underline-offset-2 text-white" href="https://www.instagram.com/artisticbaji/">
                   Connect With Us.
                 </Link>
