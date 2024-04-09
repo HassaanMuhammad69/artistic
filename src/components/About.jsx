@@ -4,7 +4,7 @@ import { useRef, useEffect } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 
-const phrase = "Just a depiction of what life inside our heads look like.";
+const phrase = "An artist is not paid for his labor but for his vision. Just a depiction of what life inside our heads look like.";
 
 export default function Home() {
 
